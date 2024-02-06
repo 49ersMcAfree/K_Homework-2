@@ -47,16 +47,12 @@ public class Student {
     // toString method to display student information
     @Override
     public String toString() {
-        return "Student{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", grade=" + grade +
-                '}';
+         return "Student{" + "id=" + id + ", name='" + name + '\'' + ", grade=" + grade +'}';
+
     }
 
     // Main method for demonstration
     public static void main(String[] args) {
-        Student student1 = new Student(1, "John", 85.5);
-        System.out.println(student1.toString());
+        //need to return the value of students id, grade name
     }
 }
